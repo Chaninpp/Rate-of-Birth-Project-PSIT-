@@ -79,14 +79,18 @@ Images block
   background-size: cover;
 }
 .cd-images-list > li:nth-of-type(3) {
-  background: #F5F5F5 url(../img/112.jpeg) no-repeat center center;
+  background: #dcdcdc url(../img/112.jpeg) no-repeat center center;
   background-size: cover;
 }
 .cd-images-list > li:nth-of-type(4) {
-  background: #338899 url(../img/112.jpeg) no-repeat center center;
+  background: #F5F5F5 url(../img/img-6.jpg) no-repeat center center;
   background-size: cover;
 }
 .cd-images-list > li:nth-of-type(5) {
+  background: #338899 url(../img/112.jpeg) no-repeat center center;
+  background-size: cover;
+}
+.cd-images-list > li:nth-of-type(6) {
   background: #338899 url(../img/img-5.jpg) no-repeat center center;
   background-size: cover;
 }
