@@ -1,7 +1,5 @@
 /* -------------------------------- 
-
 Primary style
-
 -------------------------------- */
 *, *::after, *::before {
   box-sizing: border-box;
@@ -33,9 +31,7 @@ button {
 
 
 /* -------------------------------- 
-
 Images block
-
 -------------------------------- */
 .cd-image-block {
   position: relative;
@@ -80,14 +76,18 @@ Images block
 }
 .cd-images-list > li:nth-of-type(2) {
   background: #dcdcdc url(../img/112.jpeg) no-repeat center center;
-  background-size: auto;
+  background-size: cover;
 }
 .cd-images-list > li:nth-of-type(3) {
   background: #F5F5F5 url(../img/112.jpeg) no-repeat center center;
-  background-size: auto;
+  background-size: cover;
 }
 .cd-images-list > li:nth-of-type(4) {
   background: #338899 url(../img/112.jpeg) no-repeat center center;
+  background-size: cover;
+}
+.cd-images-list > li:nth-of-type(5) {
+  background: #338899 url(../img/img-5.jpg) no-repeat center center;
   background-size: cover;
 }
 
@@ -126,9 +126,7 @@ Images block
 }
 
 /* -------------------------------- 
-
 Content block
-
 -------------------------------- */
 .cd-content-block {
   /* move the block outside the viewport (to the right) - mobile only */
@@ -279,9 +277,7 @@ Content block
 }
 
 /* ---------------------------------------------- 
-
 Desktop slider - both image and content blocks
-
 ---------------------------------------------- */
 @media only screen and (min-width: 768px) {
   .cd-image-block,
@@ -344,9 +340,7 @@ Desktop slider - both image and content blocks
   }
 }
 /* -------------------------------- 
-
 Slider navigation
-
 -------------------------------- */
 .block-navigation {
   /* this is the slider navigation - desktop version only */
@@ -399,9 +393,7 @@ Slider navigation
 }
 
 /* -------------------------------- 
-
 Javascript disabled
-
 -------------------------------- */
 @media only screen and (min-width: 768px) {
   .no-js .cd-content-block {
